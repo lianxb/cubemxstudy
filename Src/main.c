@@ -21,7 +21,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "retarget.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -75,7 +75,8 @@ int main(void)
   HAL_Init();
 
   /* USER CODE BEGIN Init */
-
+  //注册重定向串口号
+  RetargetInit(&huart1);
   /* USER CODE END Init */
 
   /* Configure the system clock */
