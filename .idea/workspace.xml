@@ -22,7 +22,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fd96c7bd-ed07-4128-8cdc-1beb37de8d54" name="更改" comment="LMT70">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Src/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +33,12 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
@@ -139,7 +144,7 @@
       <workItem from="1681474147375" duration="2642000" />
       <workItem from="1681477033625" duration="120000" />
       <workItem from="1681477200360" duration="3157000" />
-      <workItem from="1681481024707" duration="6679000" />
+      <workItem from="1681481024707" duration="7593000" />
     </task>
     <task id="LOCAL-00001" summary="模板">
       <created>1681477243210</created>
@@ -232,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681546423814</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="LMT70">
+      <created>1681547018755</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1681547018755</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
