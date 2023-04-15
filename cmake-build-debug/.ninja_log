@@ -1,12 +1,8 @@
 # ninja log v5
-36	94	7031789044600060	CMakeFiles/cubemxstudy.elf.dir/Startup/startup_stm32f407zgtx.s.obj	9af1cb16f4b97f0e
 27	167	7031789045304176	CMakeFiles/cubemxstudy.elf.dir/Src/sysmem.c.obj	8b0911fe72741dfc
-0	170	7031789045318518	CMakeFiles/cubemxstudy.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_exti.c.obj	183f48ffe1b726d0
+36	94	7031789044600060	CMakeFiles/cubemxstudy.elf.dir/Startup/startup_stm32f407zgtx.s.obj	9af1cb16f4b97f0e
 11	177	7031789045423312	CMakeFiles/cubemxstudy.elf.dir/Src/main.c.obj	a1bcc91339f0562
-5	180	7031789045458615	CMakeFiles/cubemxstudy.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_gpio.c.obj	1d92653a2a9c7c03
 15	165	7031789045284202	CMakeFiles/cubemxstudy.elf.dir/Src/stm32f4xx_it.c.obj	5ab796fe98de2727
 31	171	7031789045332672	CMakeFiles/cubemxstudy.elf.dir/Src/system_stm32f4xx.c.obj	8634fd729792af2a
-18	184	7031789045498572	CMakeFiles/cubemxstudy.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_utils.c.obj	427fff56aad5d6bc
-8	185	7031789045498572	CMakeFiles/cubemxstudy.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rcc.c.obj	9ff55fd1a0d9b001
 22	321	7031789046869564	CMakeFiles/cubemxstudy.elf.dir/Src/syscalls.c.obj	9efb04a1dd7282a8
 321	480	7031789048022820	cubemxstudy.elf	fd3e138e2ba4868c
