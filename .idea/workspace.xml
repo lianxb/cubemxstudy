@@ -20,39 +20,17 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd96c7bd-ed07-4128-8cdc-1beb37de8d54" name="更改" comment="LMT70">
+    <list default="true" id="fd96c7bd-ed07-4128-8cdc-1beb37de8d54" name="更改" comment="LMT70驱动 温度分析 串口发送 串口接收">
+      <change afterPath="$PROJECT_DIR$/Drivers/MyDrivers/Inc/LMT70.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/MyDrivers/Src/LMT70.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/MyDrivers/Inc/adc.h" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/MyDrivers/Inc/adc.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/MyDrivers/Src/adc.c" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/MyDrivers/Src/adc.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inc/stm32f4xx_it.h" beforeDir="false" afterPath="$PROJECT_DIR$/Inc/stm32f4xx_it.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/stm32f4xx_hal_msp.c" beforeDir="false" afterPath="$PROJECT_DIR$/Src/stm32f4xx_hal_msp.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/stm32f4xx_it.c" beforeDir="false" afterPath="$PROJECT_DIR$/Src/stm32f4xx_it.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-72552dfc84655f83fb26.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-d4ceb480335adb05826c.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeASMCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdC/CMakeCCompilerId.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdCXX/CMakeCXXCompilerId.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeError.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cubemxstudy.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/cubemxstudy.ioc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cubemxstudy.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cubemxstudy.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cubemxstudy.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cubemxstudy.hex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cubemxstudy.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cubemxstudy.map" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +118,17 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\17795\STM32F407\cubemxstudy\Drivers\MyDrivers\Inc" />
+    </key>
+  </component>
   <component name="RunManager" selected="OpenOCD 下载并运行.cubemxstudy.elf">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="cubemxstudy.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cubemxstudy" TARGET_NAME="cubemxstudy.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cubemxstudy" RUN_TARGET_NAME="cubemxstudy.elf">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -170,7 +158,7 @@
       <workItem from="1681474147375" duration="2642000" />
       <workItem from="1681477033625" duration="120000" />
       <workItem from="1681477200360" duration="3157000" />
-      <workItem from="1681481024707" duration="23142000" />
+      <workItem from="1681481024707" duration="28159000" />
     </task>
     <task id="LOCAL-00001" summary="模板">
       <created>1681477243210</created>
@@ -326,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681635232596</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="LMT70驱动 温度分析 串口发送 串口接收">
+      <created>1681642979807</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1681642979807</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -359,7 +354,8 @@
     <MESSAGE value="模板" />
     <MESSAGE value="添加DSP" />
     <MESSAGE value="LMT70" />
-    <option name="LAST_COMMIT_MESSAGE" value="LMT70" />
+    <MESSAGE value="LMT70驱动 温度分析 串口发送 串口接收" />
+    <option name="LAST_COMMIT_MESSAGE" value="LMT70驱动 温度分析 串口发送 串口接收" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -23,6 +23,7 @@
 /* USER CODE BEGIN Includes */
 #include "retarget.h"
 #include "adc.h"
+#include "LMT70.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -72,7 +73,9 @@ int main(void)
   /* USER CODE BEGIN 1 */
     /*全局变量*/
     //ADC变量
-    uint16_t LMT70_value;//LMT采集值
+    uint16_t ADC_value;//ADC采集值
+    double ADC_voltage;//ADC电压值
+    double LMT70_temp;//LMT70温度值
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -103,8 +106,13 @@ int main(void)
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
     while (1) {
-        LMT70_value = Get_Adc(&hadc1);
-        printf("LMT70_value = %04d \r\n", LMT70_value);
+        ADC_value = Get_Adc(&hadc1);
+        ADC_voltage = ADC2Voltage(ADC_value);
+        LMT70_temp = LMT70Voltage2Temperature(ADC_voltage);
+        printf("ADC_value = %04d \r\n", ADC_value);
+        printf("ADC_voltage = %0.1fmv \r\n", ADC_voltage);
+        printf("LMT70_temp = %0.2f℃ \r\n", LMT70_temp);
+        printf("\r\n");
         HAL_Delay(500);
     /* USER CODE END WHILE */
 
