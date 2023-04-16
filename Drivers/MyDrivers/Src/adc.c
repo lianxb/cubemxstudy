@@ -14,14 +14,6 @@
 
 ADC_HandleTypeDef ADC1_Handler;//ADC句柄
 
-//初始化ADC
-//ch: ADC_channels 
-//通道值 0~16取值范围为：ADC_CHANNEL_0~ADC_CHANNEL_16
-
-//ADC底层驱动，引脚配置，时钟使能
-//此函数会被HAL_ADC_Init()调用
-//hadc:ADC句柄
-
 //获得ADC值
 //ch: 通道值 0~16，取值范围为：ADC_CHANNEL_0~ADC_CHANNEL_16
 //返回值:转换结果
