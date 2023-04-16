@@ -57,6 +57,8 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define LMT70_Pin GPIO_PIN_5
+#define LMT70_GPIO_Port GPIOA
 
 /* USER CODE BEGIN Private defines */
 
