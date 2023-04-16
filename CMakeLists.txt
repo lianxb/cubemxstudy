@@ -49,21 +49,11 @@ else ()
     add_compile_options(-Og -g)
 endif ()
 
-include_directories(Inc
-        Drivers/STM32F4xx_HAL_Driver/Inc
-        Drivers/CMSIS/Device/ST/STM32F4xx/Include
-        Drivers/CMSIS/Include
-        // 其他include目录
-        )
+include_directories(Inc Drivers/STM32F4xx_HAL_Driver/Inc Drivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/CMSIS/Include Middlewares/ST/ARM/DSP/Inc Drivers/STM32F4xx_HAL_Driver/Inc/Legacy)
 
-add_definitions(-DDEBUG -DUSE_FULL_LL_DRIVER -DHSE_VALUE=8000000 -DHSE_STARTUP_TIMEOUT=100 -DLSE_STARTUP_TIMEOUT=5000 -DLSE_VALUE=32768 -DEXTERNAL_CLOCK_VALUE=12288000 -DHSI_VALUE=16000000 -DLSI_VALUE=32000 -DVDD_VALUE=3300 -DPREFETCH_ENABLE=1 -DINSTRUCTION_CACHE_ENABLE=1 -DDATA_CACHE_ENABLE=1 -DSTM32F407xx)
+add_definitions(-DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER)
 
-file(GLOB_RECURSE SOURCES
-        "Startup/*.*"
-        "Src/*.*"
-        "Drivers/*.*"
-        // *.*表示通配符，也就是这个文件夹里的所有文件都会被编译
-        )
+file(GLOB_RECURSE SOURCES "Startup/*.*" "Src/*.*" "Middlewares/*.*" "Drivers/*.*")
 
 set(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32F407ZGTX_FLASH.ld)
 
