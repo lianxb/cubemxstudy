@@ -21,13 +21,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd96c7bd-ed07-4128-8cdc-1beb37de8d54" name="更改" comment="LMT70驱动 温度分析 串口发送 串口接收">
-      <change afterPath="$PROJECT_DIR$/Drivers/MyDrivers/Inc/LMT70.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Drivers/MyDrivers/Src/LMT70.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Src/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/cubemxstudy.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cubemxstudy.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/cubemxstudy.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cubemxstudy.hex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/cubemxstudy.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cubemxstudy.map" afterDir="false" />
@@ -158,7 +153,7 @@
       <workItem from="1681474147375" duration="2642000" />
       <workItem from="1681477033625" duration="120000" />
       <workItem from="1681477200360" duration="3157000" />
-      <workItem from="1681481024707" duration="28159000" />
+      <workItem from="1681481024707" duration="28572000" />
     </task>
     <task id="LOCAL-00001" summary="模板">
       <created>1681477243210</created>
@@ -321,7 +316,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681642979807</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="LMT70驱动 温度分析 串口发送 串口接收">
+      <created>1681648050842</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1681648050842</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
