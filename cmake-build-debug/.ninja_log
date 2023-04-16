@@ -53,3 +53,6 @@
 236	387	7033255447627955	CMakeFiles/cubemxstudy.elf.dir/Src/syscalls.c.obj	d75586daf10b1516
 220	409	7033255447857948	CMakeFiles/cubemxstudy.elf.dir/Src/retarget.c.obj	ad5f75a8172f2ff8
 210	493	7033255448683672	CMakeFiles/cubemxstudy.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj	283cc8e643f1184b
+1	98	7033260950355055	CMakeFiles/cubemxstudy.elf.dir/Drivers/MyDrivers/Src/adc.c.obj	f475e0cb2ba6bf7
+5	117	7033260950544553	CMakeFiles/cubemxstudy.elf.dir/Src/main.c.obj	dca50b33b74bbdbb
+117	259	7033260951488382	cubemxstudy.elf	7e70cac2dda65f77
