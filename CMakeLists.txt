@@ -50,7 +50,7 @@ else ()
 endif ()
 
 include_directories(Inc Drivers/STM32F4xx_HAL_Driver/Inc Drivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/CMSIS/Include Middlewares/ST/ARM/DSP/Inc Drivers/STM32F4xx_HAL_Driver/Inc/Legacy)
-
+include_directories(Drivers/MyDrivers/Inc)
 add_definitions(-DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER)
 
 file(GLOB_RECURSE SOURCES "Startup/*.*" "Src/*.*" "Middlewares/*.*" "Drivers/*.*")
