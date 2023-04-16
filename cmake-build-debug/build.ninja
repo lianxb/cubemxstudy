@@ -49,11 +49,19 @@ cmake_ninja_workdir = C$:/Users/17795/STM32F407/cubemxstudy/cmake-build-debug/
 
 build cmake_object_order_depends_target_cubemxstudy.elf: phony || CMakeFiles/cubemxstudy.elf.dir
 
+build CMakeFiles/cubemxstudy.elf.dir/Drivers/MyDrivers/Src/adc.c.obj: C_COMPILER__cubemxstudy.2eelf_Debug C$:/Users/17795/STM32F407/cubemxstudy/Drivers/MyDrivers/Src/adc.c || cmake_object_order_depends_target_cubemxstudy.elf
+  DEFINES = -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles\cubemxstudy.elf.dir\Drivers\MyDrivers\Src\adc.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
+  INCLUDES = -IC:/Users/17795/STM32F407/cubemxstudy/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Include -IC:/Users/17795/STM32F407/cubemxstudy/Middlewares/ST/ARM/DSP/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/MyDrivers/Inc
+  OBJECT_DIR = CMakeFiles\cubemxstudy.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\cubemxstudy.elf.dir\Drivers\MyDrivers\Src
+
 build CMakeFiles/cubemxstudy.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: C_COMPILER__cubemxstudy.2eelf_Debug C$:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c || cmake_object_order_depends_target_cubemxstudy.elf
   DEFINES = -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cubemxstudy.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -IC:/Users/17795/STM32F407/cubemxstudy/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Include -IC:/Users/17795/STM32F407/cubemxstudy/Middlewares/ST/ARM/DSP/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy
+  INCLUDES = -IC:/Users/17795/STM32F407/cubemxstudy/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Include -IC:/Users/17795/STM32F407/cubemxstudy/Middlewares/ST/ARM/DSP/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/MyDrivers/Inc
   OBJECT_DIR = CMakeFiles\cubemxstudy.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\cubemxstudy.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src
 
@@ -61,7 +69,7 @@ build CMakeFiles/cubemxstudy.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_
   DEFINES = -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cubemxstudy.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -IC:/Users/17795/STM32F407/cubemxstudy/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Include -IC:/Users/17795/STM32F407/cubemxstudy/Middlewares/ST/ARM/DSP/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy
+  INCLUDES = -IC:/Users/17795/STM32F407/cubemxstudy/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Include -IC:/Users/17795/STM32F407/cubemxstudy/Middlewares/ST/ARM/DSP/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/MyDrivers/Inc
   OBJECT_DIR = CMakeFiles\cubemxstudy.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\cubemxstudy.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src
 
@@ -69,7 +77,7 @@ build CMakeFiles/cubemxstudy.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_
   DEFINES = -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cubemxstudy.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -IC:/Users/17795/STM32F407/cubemxstudy/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Include -IC:/Users/17795/STM32F407/cubemxstudy/Middlewares/ST/ARM/DSP/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy
+  INCLUDES = -IC:/Users/17795/STM32F407/cubemxstudy/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Include -IC:/Users/17795/STM32F407/cubemxstudy/Middlewares/ST/ARM/DSP/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/MyDrivers/Inc
   OBJECT_DIR = CMakeFiles\cubemxstudy.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\cubemxstudy.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src
 
@@ -77,7 +85,7 @@ build CMakeFiles/cubemxstudy.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_
   DEFINES = -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cubemxstudy.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -IC:/Users/17795/STM32F407/cubemxstudy/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Include -IC:/Users/17795/STM32F407/cubemxstudy/Middlewares/ST/ARM/DSP/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy
+  INCLUDES = -IC:/Users/17795/STM32F407/cubemxstudy/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Include -IC:/Users/17795/STM32F407/cubemxstudy/Middlewares/ST/ARM/DSP/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/MyDrivers/Inc
   OBJECT_DIR = CMakeFiles\cubemxstudy.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\cubemxstudy.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src
 
@@ -85,7 +93,7 @@ build CMakeFiles/cubemxstudy.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_
   DEFINES = -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cubemxstudy.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -IC:/Users/17795/STM32F407/cubemxstudy/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Include -IC:/Users/17795/STM32F407/cubemxstudy/Middlewares/ST/ARM/DSP/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy
+  INCLUDES = -IC:/Users/17795/STM32F407/cubemxstudy/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Include -IC:/Users/17795/STM32F407/cubemxstudy/Middlewares/ST/ARM/DSP/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/MyDrivers/Inc
   OBJECT_DIR = CMakeFiles\cubemxstudy.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\cubemxstudy.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src
 
@@ -93,7 +101,7 @@ build CMakeFiles/cubemxstudy.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_
   DEFINES = -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cubemxstudy.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -IC:/Users/17795/STM32F407/cubemxstudy/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Include -IC:/Users/17795/STM32F407/cubemxstudy/Middlewares/ST/ARM/DSP/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy
+  INCLUDES = -IC:/Users/17795/STM32F407/cubemxstudy/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Include -IC:/Users/17795/STM32F407/cubemxstudy/Middlewares/ST/ARM/DSP/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/MyDrivers/Inc
   OBJECT_DIR = CMakeFiles\cubemxstudy.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\cubemxstudy.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src
 
@@ -101,7 +109,7 @@ build CMakeFiles/cubemxstudy.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_
   DEFINES = -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cubemxstudy.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -IC:/Users/17795/STM32F407/cubemxstudy/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Include -IC:/Users/17795/STM32F407/cubemxstudy/Middlewares/ST/ARM/DSP/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy
+  INCLUDES = -IC:/Users/17795/STM32F407/cubemxstudy/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Include -IC:/Users/17795/STM32F407/cubemxstudy/Middlewares/ST/ARM/DSP/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/MyDrivers/Inc
   OBJECT_DIR = CMakeFiles\cubemxstudy.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\cubemxstudy.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src
 
@@ -109,7 +117,7 @@ build CMakeFiles/cubemxstudy.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_
   DEFINES = -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cubemxstudy.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -IC:/Users/17795/STM32F407/cubemxstudy/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Include -IC:/Users/17795/STM32F407/cubemxstudy/Middlewares/ST/ARM/DSP/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy
+  INCLUDES = -IC:/Users/17795/STM32F407/cubemxstudy/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Include -IC:/Users/17795/STM32F407/cubemxstudy/Middlewares/ST/ARM/DSP/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/MyDrivers/Inc
   OBJECT_DIR = CMakeFiles\cubemxstudy.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\cubemxstudy.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src
 
@@ -117,7 +125,7 @@ build CMakeFiles/cubemxstudy.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_
   DEFINES = -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cubemxstudy.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -IC:/Users/17795/STM32F407/cubemxstudy/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Include -IC:/Users/17795/STM32F407/cubemxstudy/Middlewares/ST/ARM/DSP/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy
+  INCLUDES = -IC:/Users/17795/STM32F407/cubemxstudy/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Include -IC:/Users/17795/STM32F407/cubemxstudy/Middlewares/ST/ARM/DSP/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/MyDrivers/Inc
   OBJECT_DIR = CMakeFiles\cubemxstudy.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\cubemxstudy.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src
 
@@ -125,7 +133,7 @@ build CMakeFiles/cubemxstudy.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_
   DEFINES = -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cubemxstudy.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -IC:/Users/17795/STM32F407/cubemxstudy/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Include -IC:/Users/17795/STM32F407/cubemxstudy/Middlewares/ST/ARM/DSP/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy
+  INCLUDES = -IC:/Users/17795/STM32F407/cubemxstudy/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Include -IC:/Users/17795/STM32F407/cubemxstudy/Middlewares/ST/ARM/DSP/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/MyDrivers/Inc
   OBJECT_DIR = CMakeFiles\cubemxstudy.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\cubemxstudy.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src
 
@@ -133,7 +141,7 @@ build CMakeFiles/cubemxstudy.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_
   DEFINES = -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cubemxstudy.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -IC:/Users/17795/STM32F407/cubemxstudy/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Include -IC:/Users/17795/STM32F407/cubemxstudy/Middlewares/ST/ARM/DSP/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy
+  INCLUDES = -IC:/Users/17795/STM32F407/cubemxstudy/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Include -IC:/Users/17795/STM32F407/cubemxstudy/Middlewares/ST/ARM/DSP/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/MyDrivers/Inc
   OBJECT_DIR = CMakeFiles\cubemxstudy.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\cubemxstudy.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src
 
@@ -141,7 +149,7 @@ build CMakeFiles/cubemxstudy.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_
   DEFINES = -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cubemxstudy.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -IC:/Users/17795/STM32F407/cubemxstudy/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Include -IC:/Users/17795/STM32F407/cubemxstudy/Middlewares/ST/ARM/DSP/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy
+  INCLUDES = -IC:/Users/17795/STM32F407/cubemxstudy/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Include -IC:/Users/17795/STM32F407/cubemxstudy/Middlewares/ST/ARM/DSP/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/MyDrivers/Inc
   OBJECT_DIR = CMakeFiles\cubemxstudy.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\cubemxstudy.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src
 
@@ -149,7 +157,7 @@ build CMakeFiles/cubemxstudy.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_
   DEFINES = -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cubemxstudy.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -IC:/Users/17795/STM32F407/cubemxstudy/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Include -IC:/Users/17795/STM32F407/cubemxstudy/Middlewares/ST/ARM/DSP/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy
+  INCLUDES = -IC:/Users/17795/STM32F407/cubemxstudy/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Include -IC:/Users/17795/STM32F407/cubemxstudy/Middlewares/ST/ARM/DSP/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/MyDrivers/Inc
   OBJECT_DIR = CMakeFiles\cubemxstudy.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\cubemxstudy.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src
 
@@ -157,7 +165,7 @@ build CMakeFiles/cubemxstudy.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_
   DEFINES = -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cubemxstudy.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -IC:/Users/17795/STM32F407/cubemxstudy/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Include -IC:/Users/17795/STM32F407/cubemxstudy/Middlewares/ST/ARM/DSP/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy
+  INCLUDES = -IC:/Users/17795/STM32F407/cubemxstudy/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Include -IC:/Users/17795/STM32F407/cubemxstudy/Middlewares/ST/ARM/DSP/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/MyDrivers/Inc
   OBJECT_DIR = CMakeFiles\cubemxstudy.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\cubemxstudy.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src
 
@@ -165,7 +173,7 @@ build CMakeFiles/cubemxstudy.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_
   DEFINES = -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cubemxstudy.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -IC:/Users/17795/STM32F407/cubemxstudy/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Include -IC:/Users/17795/STM32F407/cubemxstudy/Middlewares/ST/ARM/DSP/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy
+  INCLUDES = -IC:/Users/17795/STM32F407/cubemxstudy/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Include -IC:/Users/17795/STM32F407/cubemxstudy/Middlewares/ST/ARM/DSP/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/MyDrivers/Inc
   OBJECT_DIR = CMakeFiles\cubemxstudy.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\cubemxstudy.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src
 
@@ -173,7 +181,7 @@ build CMakeFiles/cubemxstudy.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_
   DEFINES = -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cubemxstudy.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -IC:/Users/17795/STM32F407/cubemxstudy/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Include -IC:/Users/17795/STM32F407/cubemxstudy/Middlewares/ST/ARM/DSP/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy
+  INCLUDES = -IC:/Users/17795/STM32F407/cubemxstudy/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Include -IC:/Users/17795/STM32F407/cubemxstudy/Middlewares/ST/ARM/DSP/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/MyDrivers/Inc
   OBJECT_DIR = CMakeFiles\cubemxstudy.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\cubemxstudy.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src
 
@@ -181,7 +189,7 @@ build CMakeFiles/cubemxstudy.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_
   DEFINES = -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cubemxstudy.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -IC:/Users/17795/STM32F407/cubemxstudy/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Include -IC:/Users/17795/STM32F407/cubemxstudy/Middlewares/ST/ARM/DSP/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy
+  INCLUDES = -IC:/Users/17795/STM32F407/cubemxstudy/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Include -IC:/Users/17795/STM32F407/cubemxstudy/Middlewares/ST/ARM/DSP/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/MyDrivers/Inc
   OBJECT_DIR = CMakeFiles\cubemxstudy.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\cubemxstudy.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src
 
@@ -189,7 +197,7 @@ build CMakeFiles/cubemxstudy.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_
   DEFINES = -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cubemxstudy.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -IC:/Users/17795/STM32F407/cubemxstudy/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Include -IC:/Users/17795/STM32F407/cubemxstudy/Middlewares/ST/ARM/DSP/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy
+  INCLUDES = -IC:/Users/17795/STM32F407/cubemxstudy/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Include -IC:/Users/17795/STM32F407/cubemxstudy/Middlewares/ST/ARM/DSP/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/MyDrivers/Inc
   OBJECT_DIR = CMakeFiles\cubemxstudy.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\cubemxstudy.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src
 
@@ -197,23 +205,15 @@ build CMakeFiles/cubemxstudy.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_
   DEFINES = -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cubemxstudy.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -IC:/Users/17795/STM32F407/cubemxstudy/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Include -IC:/Users/17795/STM32F407/cubemxstudy/Middlewares/ST/ARM/DSP/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy
+  INCLUDES = -IC:/Users/17795/STM32F407/cubemxstudy/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Include -IC:/Users/17795/STM32F407/cubemxstudy/Middlewares/ST/ARM/DSP/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/MyDrivers/Inc
   OBJECT_DIR = CMakeFiles\cubemxstudy.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\cubemxstudy.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src
-
-build CMakeFiles/cubemxstudy.elf.dir/Src/adc.c.obj: C_COMPILER__cubemxstudy.2eelf_Debug C$:/Users/17795/STM32F407/cubemxstudy/Src/adc.c || cmake_object_order_depends_target_cubemxstudy.elf
-  DEFINES = -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
-  DEP_FILE = CMakeFiles\cubemxstudy.elf.dir\Src\adc.c.obj.d
-  FLAGS = -g -fdiagnostics-color=always -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -IC:/Users/17795/STM32F407/cubemxstudy/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Include -IC:/Users/17795/STM32F407/cubemxstudy/Middlewares/ST/ARM/DSP/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy
-  OBJECT_DIR = CMakeFiles\cubemxstudy.elf.dir
-  OBJECT_FILE_DIR = CMakeFiles\cubemxstudy.elf.dir\Src
 
 build CMakeFiles/cubemxstudy.elf.dir/Src/main.c.obj: C_COMPILER__cubemxstudy.2eelf_Debug C$:/Users/17795/STM32F407/cubemxstudy/Src/main.c || cmake_object_order_depends_target_cubemxstudy.elf
   DEFINES = -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cubemxstudy.elf.dir\Src\main.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -IC:/Users/17795/STM32F407/cubemxstudy/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Include -IC:/Users/17795/STM32F407/cubemxstudy/Middlewares/ST/ARM/DSP/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy
+  INCLUDES = -IC:/Users/17795/STM32F407/cubemxstudy/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Include -IC:/Users/17795/STM32F407/cubemxstudy/Middlewares/ST/ARM/DSP/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/MyDrivers/Inc
   OBJECT_DIR = CMakeFiles\cubemxstudy.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\cubemxstudy.elf.dir\Src
 
@@ -221,7 +221,7 @@ build CMakeFiles/cubemxstudy.elf.dir/Src/retarget.c.obj: C_COMPILER__cubemxstudy
   DEFINES = -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cubemxstudy.elf.dir\Src\retarget.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -IC:/Users/17795/STM32F407/cubemxstudy/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Include -IC:/Users/17795/STM32F407/cubemxstudy/Middlewares/ST/ARM/DSP/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy
+  INCLUDES = -IC:/Users/17795/STM32F407/cubemxstudy/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Include -IC:/Users/17795/STM32F407/cubemxstudy/Middlewares/ST/ARM/DSP/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/MyDrivers/Inc
   OBJECT_DIR = CMakeFiles\cubemxstudy.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\cubemxstudy.elf.dir\Src
 
@@ -229,7 +229,7 @@ build CMakeFiles/cubemxstudy.elf.dir/Src/stm32f4xx_hal_msp.c.obj: C_COMPILER__cu
   DEFINES = -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cubemxstudy.elf.dir\Src\stm32f4xx_hal_msp.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -IC:/Users/17795/STM32F407/cubemxstudy/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Include -IC:/Users/17795/STM32F407/cubemxstudy/Middlewares/ST/ARM/DSP/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy
+  INCLUDES = -IC:/Users/17795/STM32F407/cubemxstudy/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Include -IC:/Users/17795/STM32F407/cubemxstudy/Middlewares/ST/ARM/DSP/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/MyDrivers/Inc
   OBJECT_DIR = CMakeFiles\cubemxstudy.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\cubemxstudy.elf.dir\Src
 
@@ -237,7 +237,7 @@ build CMakeFiles/cubemxstudy.elf.dir/Src/stm32f4xx_it.c.obj: C_COMPILER__cubemxs
   DEFINES = -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cubemxstudy.elf.dir\Src\stm32f4xx_it.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -IC:/Users/17795/STM32F407/cubemxstudy/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Include -IC:/Users/17795/STM32F407/cubemxstudy/Middlewares/ST/ARM/DSP/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy
+  INCLUDES = -IC:/Users/17795/STM32F407/cubemxstudy/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Include -IC:/Users/17795/STM32F407/cubemxstudy/Middlewares/ST/ARM/DSP/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/MyDrivers/Inc
   OBJECT_DIR = CMakeFiles\cubemxstudy.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\cubemxstudy.elf.dir\Src
 
@@ -245,7 +245,7 @@ build CMakeFiles/cubemxstudy.elf.dir/Src/syscalls.c.obj: C_COMPILER__cubemxstudy
   DEFINES = -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cubemxstudy.elf.dir\Src\syscalls.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -IC:/Users/17795/STM32F407/cubemxstudy/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Include -IC:/Users/17795/STM32F407/cubemxstudy/Middlewares/ST/ARM/DSP/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy
+  INCLUDES = -IC:/Users/17795/STM32F407/cubemxstudy/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Include -IC:/Users/17795/STM32F407/cubemxstudy/Middlewares/ST/ARM/DSP/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/MyDrivers/Inc
   OBJECT_DIR = CMakeFiles\cubemxstudy.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\cubemxstudy.elf.dir\Src
 
@@ -253,7 +253,7 @@ build CMakeFiles/cubemxstudy.elf.dir/Src/sysmem.c.obj: C_COMPILER__cubemxstudy.2
   DEFINES = -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cubemxstudy.elf.dir\Src\sysmem.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -IC:/Users/17795/STM32F407/cubemxstudy/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Include -IC:/Users/17795/STM32F407/cubemxstudy/Middlewares/ST/ARM/DSP/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy
+  INCLUDES = -IC:/Users/17795/STM32F407/cubemxstudy/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Include -IC:/Users/17795/STM32F407/cubemxstudy/Middlewares/ST/ARM/DSP/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/MyDrivers/Inc
   OBJECT_DIR = CMakeFiles\cubemxstudy.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\cubemxstudy.elf.dir\Src
 
@@ -261,7 +261,7 @@ build CMakeFiles/cubemxstudy.elf.dir/Src/system_stm32f4xx.c.obj: C_COMPILER__cub
   DEFINES = -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cubemxstudy.elf.dir\Src\system_stm32f4xx.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -IC:/Users/17795/STM32F407/cubemxstudy/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Include -IC:/Users/17795/STM32F407/cubemxstudy/Middlewares/ST/ARM/DSP/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy
+  INCLUDES = -IC:/Users/17795/STM32F407/cubemxstudy/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Include -IC:/Users/17795/STM32F407/cubemxstudy/Middlewares/ST/ARM/DSP/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/MyDrivers/Inc
   OBJECT_DIR = CMakeFiles\cubemxstudy.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\cubemxstudy.elf.dir\Src
 
@@ -269,7 +269,7 @@ build CMakeFiles/cubemxstudy.elf.dir/Startup/startup_stm32f407zgtx.s.obj: ASM_CO
   DEFINES = -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cubemxstudy.elf.dir\Startup\startup_stm32f407zgtx.s.obj.d
   FLAGS = -g -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -x assembler-with-cpp -Og -g
-  INCLUDES = -IC:/Users/17795/STM32F407/cubemxstudy/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Include -IC:/Users/17795/STM32F407/cubemxstudy/Middlewares/ST/ARM/DSP/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy
+  INCLUDES = -IC:/Users/17795/STM32F407/cubemxstudy/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/CMSIS/Include -IC:/Users/17795/STM32F407/cubemxstudy/Middlewares/ST/ARM/DSP/Inc -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IC:/Users/17795/STM32F407/cubemxstudy/Drivers/MyDrivers/Inc
   OBJECT_DIR = CMakeFiles\cubemxstudy.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\cubemxstudy.elf.dir\Startup
 
@@ -281,7 +281,7 @@ build CMakeFiles/cubemxstudy.elf.dir/Startup/startup_stm32f407zgtx.s.obj: ASM_CO
 #############################################
 # Link the executable cubemxstudy.elf
 
-build cubemxstudy.elf: C_EXECUTABLE_LINKER__cubemxstudy.2eelf_Debug CMakeFiles/cubemxstudy.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj CMakeFiles/cubemxstudy.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj CMakeFiles/cubemxstudy.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj CMakeFiles/cubemxstudy.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj CMakeFiles/cubemxstudy.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj CMakeFiles/cubemxstudy.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj CMakeFiles/cubemxstudy.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj CMakeFiles/cubemxstudy.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj CMakeFiles/cubemxstudy.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj CMakeFiles/cubemxstudy.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj CMakeFiles/cubemxstudy.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj CMakeFiles/cubemxstudy.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj CMakeFiles/cubemxstudy.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj CMakeFiles/cubemxstudy.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj CMakeFiles/cubemxstudy.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj CMakeFiles/cubemxstudy.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj CMakeFiles/cubemxstudy.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj CMakeFiles/cubemxstudy.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj CMakeFiles/cubemxstudy.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj CMakeFiles/cubemxstudy.elf.dir/Src/adc.c.obj CMakeFiles/cubemxstudy.elf.dir/Src/main.c.obj CMakeFiles/cubemxstudy.elf.dir/Src/retarget.c.obj CMakeFiles/cubemxstudy.elf.dir/Src/stm32f4xx_hal_msp.c.obj CMakeFiles/cubemxstudy.elf.dir/Src/stm32f4xx_it.c.obj CMakeFiles/cubemxstudy.elf.dir/Src/syscalls.c.obj CMakeFiles/cubemxstudy.elf.dir/Src/sysmem.c.obj CMakeFiles/cubemxstudy.elf.dir/Src/system_stm32f4xx.c.obj CMakeFiles/cubemxstudy.elf.dir/Startup/startup_stm32f407zgtx.s.obj
+build cubemxstudy.elf: C_EXECUTABLE_LINKER__cubemxstudy.2eelf_Debug CMakeFiles/cubemxstudy.elf.dir/Drivers/MyDrivers/Src/adc.c.obj CMakeFiles/cubemxstudy.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj CMakeFiles/cubemxstudy.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj CMakeFiles/cubemxstudy.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj CMakeFiles/cubemxstudy.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj CMakeFiles/cubemxstudy.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj CMakeFiles/cubemxstudy.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj CMakeFiles/cubemxstudy.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj CMakeFiles/cubemxstudy.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj CMakeFiles/cubemxstudy.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj CMakeFiles/cubemxstudy.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj CMakeFiles/cubemxstudy.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj CMakeFiles/cubemxstudy.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj CMakeFiles/cubemxstudy.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj CMakeFiles/cubemxstudy.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj CMakeFiles/cubemxstudy.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj CMakeFiles/cubemxstudy.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj CMakeFiles/cubemxstudy.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj CMakeFiles/cubemxstudy.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj CMakeFiles/cubemxstudy.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj CMakeFiles/cubemxstudy.elf.dir/Src/main.c.obj CMakeFiles/cubemxstudy.elf.dir/Src/retarget.c.obj CMakeFiles/cubemxstudy.elf.dir/Src/stm32f4xx_hal_msp.c.obj CMakeFiles/cubemxstudy.elf.dir/Src/stm32f4xx_it.c.obj CMakeFiles/cubemxstudy.elf.dir/Src/syscalls.c.obj CMakeFiles/cubemxstudy.elf.dir/Src/sysmem.c.obj CMakeFiles/cubemxstudy.elf.dir/Src/system_stm32f4xx.c.obj CMakeFiles/cubemxstudy.elf.dir/Startup/startup_stm32f407zgtx.s.obj
   FLAGS = -g
   LINK_FLAGS = -mfloat-abi=hard -mfpu=fpv4-sp-d16 -Wl,-gc-sections,--print-memory-usage,-Map=C:/Users/17795/STM32F407/cubemxstudy/cmake-build-debug/cubemxstudy.map -mcpu=cortex-m4 -mthumb -mthumb-interwork -T C:/Users/17795/STM32F407/cubemxstudy/STM32F407ZGTX_FLASH.ld
   OBJECT_DIR = CMakeFiles\cubemxstudy.elf.dir
