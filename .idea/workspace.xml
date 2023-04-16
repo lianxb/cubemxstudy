@@ -21,16 +21,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd96c7bd-ed07-4128-8cdc-1beb37de8d54" name="更改" comment="LMT70">
-      <change afterPath="$PROJECT_DIR$/Drivers/MyDrivers/Inc/adc.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Drivers/MyDrivers/Src/adc.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists_template.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists_template.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inc/adc.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/adc.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Drivers/MyDrivers/Inc/adc.h" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/MyDrivers/Inc/adc.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Drivers/MyDrivers/Src/adc.c" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/MyDrivers/Src/adc.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cubemxstudy.elf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cubemxstudy.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cubemxstudy.map" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +150,7 @@
       <workItem from="1681474147375" duration="2642000" />
       <workItem from="1681477033625" duration="120000" />
       <workItem from="1681477200360" duration="3157000" />
-      <workItem from="1681481024707" duration="13367000" />
+      <workItem from="1681481024707" duration="14429000" />
     </task>
     <task id="LOCAL-00001" summary="模板">
       <created>1681477243210</created>
@@ -274,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681619093969</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="LMT70">
+      <created>1681621901293</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1681621901293</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
